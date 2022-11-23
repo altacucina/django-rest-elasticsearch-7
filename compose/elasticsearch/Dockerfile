@@ -1,5 +1,5 @@
 # https://github.com/elastic/elasticsearch-docker
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.7.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.7
 
 ENV cluster.name=test-cluster-elasticsearch
 ENV network.host=0.0.0.0

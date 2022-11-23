@@ -1,6 +1,6 @@
-Django>=2
-djangorestframework>=3.9.1
-elasticsearch-dsl>=6.0.0,<7.0.0
+Django==2.2.24
+djangorestframework==3.11.2
+elasticsearch-dsl>=7.0.0,<8.0.0
 six>=1.11.0
 pytest-runner
 pytest

@@ -41,9 +41,9 @@ def get_dev_requires():
 
 
 setup(
-    name='django-rest-elasticsearch',
+    name='django-rest-elasticsearch-7',
     version=get_version('rest_framework_elasticsearch'),
-    url='https://github.com/myarik/rest_framework_elasticsearch',
+    url='https://github.com/altacucina/django-rest-elasticsearch-7',
     license='Apache 2.0',
     description='Elasticsearch support for Django REST Framework',
     author='Yaroslav Muravskyi',

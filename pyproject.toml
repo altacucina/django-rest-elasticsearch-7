@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django-rest-elasticsearch-7"
+version = "0.4.1"
+description = "Elasticsearch support for Django REST Framework"
+authors = ["Somebody"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2"
+djangorestframework = "^3.14.0"
+elasticsearch-dsl = ">=7.0.0,<8.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-runner = "^6.0.1"
+coreapi = "^2.3.3"
+pytz = "^2023.3.post1"
+six = "^1.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

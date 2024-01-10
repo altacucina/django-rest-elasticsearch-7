@@ -3,8 +3,7 @@
 
 import os
 import re
-
-from setuptools import find_packages, setup
+from setuptools import setup, find_packages
 
 
 def get_version(package):
@@ -44,8 +43,8 @@ def get_dev_requires():
 
 
 setup(
-    name="django-rest-elasticsearch-7",
-    version=get_version("rest_framework_elasticsearch_7"),
+    name="django-rest-elasticsearch",
+    version=get_version("rest_framework_elasticsearch"),
     url="https://github.com/myarik/rest_framework_elasticsearch",
     license="Apache 2.0",
     description="Elasticsearch support for Django REST Framework",

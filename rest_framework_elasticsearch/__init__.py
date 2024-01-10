@@ -1,4 +1,4 @@
-__title__ = "rest_framework_elasticsearch_7"
+__title__ = "rest_framework_elasticsearch"
 __version__ = "0.4.1"
 __author__ = "Yaroslav Muravskyi"
 
